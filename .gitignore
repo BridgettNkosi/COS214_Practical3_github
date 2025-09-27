@@ -1,0 +1,20 @@
+# Ignore object files
+*.o
+
+# Ignore executables
+testing_main
+demo_main
+
+# Ignore coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore Doxygen output if generated
+docs/
+html/
+latex/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
