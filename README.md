@@ -1,6 +1,6 @@
 # COS214 Practical 3 – PetSpace Chat System
 
-## 📌 Overview
+##  Overview
 PetSpace is a simple **chat room simulation** built in C++ that demonstrates the use of **design patterns**.  
 The system allows multiple users to join different chat rooms, send messages, browse chat history, and even undo changes using snapshots.
 
@@ -8,7 +8,7 @@ This project was developed as part of the COS214 course at the **University of P
 
 ---
 
-## 🚀 Features
+##  Features
 - Users can join multiple chat rooms.
 - Users can send messages to specific chat rooms.
 - Chat rooms keep message history.
@@ -18,7 +18,7 @@ This project was developed as part of the COS214 course at the **University of P
 
 ---
 
-## 🧩 Design Patterns Implemented
+##  Design Patterns Implemented
 ### 1. Mediator  
 - **Purpose**: Decouples direct communication between users.  
 - **In Code**: `ChatRoom` acts as the Mediator, routing messages between `User` objects.  
@@ -41,7 +41,7 @@ This project was developed as part of the COS214 course at the **University of P
 
 ---
 
-## 🛠️ Build & Run
+## Build & Run
 ### Prerequisites
 - Linux / WSL / macOS / or MinGW on Windows
 - `g++` with C++11 support
@@ -50,3 +50,4 @@ This project was developed as part of the COS214 course at the **University of P
 ### Build & Run (Testing Main)
 ```bash
 make run
+
